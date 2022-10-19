@@ -1,7 +1,7 @@
 node {
 
    def registryProjet='formation/'
-   def IMAGE="${registryProjet}app:${Version}"
+   def IMAGE="${registryProjet}clovis_web:${Version}"
 
     stage('Clone') {
           checkout scm
