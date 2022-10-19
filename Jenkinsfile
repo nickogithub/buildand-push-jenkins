@@ -12,7 +12,7 @@ node {
     }
 
     stage('Run') {
-          img.withRun("--name run-$BUILD_ID -p 8000:80") { c ->
+          img.withRun("--name run-$BUILD_ID -p 8001:80") { c ->
        
           }
     }
